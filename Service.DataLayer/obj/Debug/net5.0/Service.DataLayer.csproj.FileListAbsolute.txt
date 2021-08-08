@@ -1,8 +1,10 @@
+D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0\appsettings.json
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0\Service.DataLayer.deps.json
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0\Service.DataLayer.runtimeconfig.json
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0\Service.DataLayer.runtimeconfig.dev.json
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0\Service.DataLayer.dll
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0\Service.DataLayer.pdb
+D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\obj\Debug\net5.0\Service.DataLayer.csprojAssemblyReference.cache
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\obj\Debug\net5.0\Service.DataLayer.AssemblyInfoInputs.cache
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\obj\Debug\net5.0\Service.DataLayer.AssemblyInfo.cs
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\obj\Debug\net5.0\Service.DataLayer.csproj.CoreCompileInputs.cache

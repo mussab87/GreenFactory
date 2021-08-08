@@ -1,5 +1,5 @@
-D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\appsettings.Development.json
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\appsettings.json
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\appsettings.Development.json
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\Properties\launchSettings.json
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\GreenFactory.exe
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\GreenFactory.deps.json
@@ -57,6 +57,8 @@ D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\runt
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\Service.DataLayer.dll
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\Service.DataLayer.pdb
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\GreenFactory.csprojAssemblyReference.cache
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\GreenFactory.AssemblyInfoInputs.cache
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\GreenFactory.AssemblyInfo.cs
@@ -67,10 +69,16 @@ D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Gree
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\GreenFactory.TagHelpers.input.cache
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\GreenFactory.TagHelpers.output.cache
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\GreenFactory.RazorCoreGenerate.cache
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\MainHome\Index.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_Home.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_LoginAndReg.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
