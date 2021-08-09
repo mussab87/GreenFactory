@@ -14,6 +14,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Service.DataLayer.Models;
 using Service.DataLayer.ModelsNew;
+using Service.DataLayer.Connection;
+using Service.DataLayer.Connection.Configuration;
 
 namespace GreenFactory
 {
@@ -33,15 +35,22 @@ namespace GreenFactory
         {
             //services.AddEntityFrameworkSqlServer();
 
+            string DatabaseConn = DBAppConfigHelper.ConnDb(
+                 _config.GetConnectionString("ServiceDBConnection"),
+                 _config.GetConnectionString("DBUsername"),
+                 _config.GetConnectionString("DBPassword")
+                 );
+
             services.AddDbContext<PageDBContext>((serviceProvider, optionsBuilder) =>
             {
-                optionsBuilder.UseSqlServer(_config.GetConnectionString("ServiceDBConnection"));
+                //optionsBuilder.UseSqlServer(_config.GetConnectionString("ServiceDBConnection"));
+                optionsBuilder.UseSqlServer(DatabaseConn);
                 optionsBuilder.UseInternalServiceProvider(serviceProvider);
             });
 
-
             services.AddDbContextPool<AppDbContext>(
-            options => options.UseSqlServer(_config.GetConnectionString("ServiceDBConnection")));
+             options => options.UseSqlServer(DatabaseConn));
+            //options => options.UseSqlServer(_config.GetConnectionString("ServiceDBConnection")));
 
             //services.AddDbContextPool<EmployeeContext>(
             //options => options.UseSqlServer(_config.GetConnectionString("ServiceDBConnection")));

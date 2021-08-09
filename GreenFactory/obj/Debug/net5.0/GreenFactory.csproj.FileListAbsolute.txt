@@ -1,4 +1,5 @@
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\appsettings.json
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\web.config
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\appsettings.Development.json
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\Properties\launchSettings.json
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\GreenFactory.exe
