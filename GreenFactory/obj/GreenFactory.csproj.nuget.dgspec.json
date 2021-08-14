@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
               "D:\\Green Factory Website\\Project\\GreenFactory\\Service.DataLayer\\Service.DataLayer.csproj": {
                 "projectPath": "D:\\Green Factory Website\\Project\\GreenFactory\\Service.DataLayer\\Service.DataLayer.csproj"
@@ -44,6 +45,7 @@
       },
       "frameworks": {
         "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -100,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -129,6 +131,7 @@
         },
         "frameworks": {
           "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -140,6 +143,7 @@
       },
       "frameworks": {
         "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -193,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

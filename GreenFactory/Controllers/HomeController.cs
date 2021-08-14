@@ -38,6 +38,12 @@ namespace GreenFactory.Controllers
             return View();
         }
 
+        public IActionResult Products()
+        {
+            ViewData["Header"] = "Contact";
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

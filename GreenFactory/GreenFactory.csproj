@@ -25,4 +25,8 @@
     <ProjectReference Include="..\Service.DataLayer\Service.DataLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\portfolios\pinterest\js\" />
+  </ItemGroup>
+
 </Project>
