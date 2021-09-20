@@ -16,6 +16,7 @@ using Service.DataLayer.Models;
 using Service.DataLayer.ModelsNew;
 using Service.DataLayer.Connection;
 using Service.DataLayer.Connection.Configuration;
+using Service.DataLayer.Repository;
 
 namespace GreenFactory
 {
@@ -64,11 +65,8 @@ namespace GreenFactory
                                 .Build();
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
-
-
-            //services.AddTransient<IEmployeeRepository, MockEmployeeRepository>();
-            //services.AddTransient<IOfficeRepository, SQLOfficeRepository>();
-            //services.AddTransient<IWorkerRepository, SQLWorkerRepository>();
+            
+            services.AddTransient<ISendEmail, SendEmail>();
 
             services.AddControllersWithViews();
         }

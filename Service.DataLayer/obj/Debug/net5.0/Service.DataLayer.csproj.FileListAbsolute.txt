@@ -5,6 +5,7 @@ D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0\Service.DataLayer.dll
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0\ref\Service.DataLayer.dll
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\bin\Debug\net5.0\Service.DataLayer.pdb
+D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\obj\Debug\net5.0\Service.DataLayer.csproj.AssemblyReference.cache
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\obj\Debug\net5.0\Service.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\obj\Debug\net5.0\Service.DataLayer.AssemblyInfoInputs.cache
 D:\Green Factory Website\Project\GreenFactory\Service.DataLayer\obj\Debug\net5.0\Service.DataLayer.AssemblyInfo.cs

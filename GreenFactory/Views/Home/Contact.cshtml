@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Service.DataLayer.ViewModels.EmailInfo
+@{
     ViewBag.title = "Contact Us";
 }
 
@@ -9,7 +10,7 @@
             scrolling="no"
             marginheight="0"
             marginwidth="0"
-            src="https://maps.google.it/maps?ll=41.506705,15.326647&spn=0.00687,0.016512&sll=41.506700,15.326680&amp;output=embed">
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.5155603192516!2d38.1246903149883!3d24.118525984409256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDA3JzA2LjciTiAzOMKwMDcnMzYuOCJF!5e0!3m2!1sen!2ssa!4v1632066024167!5m2!1sen!2ssa">
     </iframe>
 
     <div id="map-handler" class="container">
@@ -19,12 +20,12 @@
 <!-- END MAP -->
 <!-- START PAGE META -->
 <div id="page-meta" class="container" dir="rtl" lang="ar">
-
+    
     <!-- BREDCRUMB -->
     <div dir="rtl" lang="ar">
-       <p id="yit-breadcrumb" itemprop="breadcrumb">
-        <a class="home" asp-controller="Home" asp-action="Index">الرئيسية</a> &gt;
-        <a class="no-link current" asp-controller="Home" asp-action="Contact">اتصل بنا</a>
+        <p id="yit-breadcrumb" itemprop="breadcrumb">
+            <a class="home" asp-controller="Home" asp-action="Index">الرئيسية</a> &gt;
+            <a class="no-link current" asp-controller="Home" asp-action="Contact">اتصل بنا</a>
         </p>
     </div>
 
@@ -39,91 +40,93 @@
                 <div class="page type-page status-publish hentry group" dir="rtl" lang="ar">
                     <h3>اتصل بنا</h3>
                     <p>&nbsp;</p>
-                    <form id="contact-form-contact-form" class="contact-form row" method="post" enctype="multipart/form-data" dir="rtl" lang="ar">
+                    @if (ViewBag.success != null)
+                    {
+                        <h3 style="color: green;">@ViewBag.success</h3>
+                    }
 
-                        <div class="usermessagea" dir="rtl" lang="ar"></div>
+                    @*<form id="contact-form-contact-form" class="contact-form row" method="post" enctype="multipart/form-data" dir="rtl" lang="ar">*@
+                    <form method="post" enctype="multipart/form-data" asp-action="Contact" class="contact-form row" dir="rtl" lang="ar">
+                        @*<div class="usermessagea" dir="rtl" lang="ar"></div>*@
+
+
                         <fieldset>
                             <ul dir="rtl" lang="ar">
                                 <li class="text-field span3">
-                                    <label for="name-contact-form">
-                                        <span class="mainlabel">الاسم</span>
+
+                                    <label asp-for="Name" style="font-size:large">
+                                       
                                     </label>
+
                                     <div class="input-prepend" dir="rtl" lang="ar">
 
-                                        <input type="text" name="yit_contact[name]" id="name-contact-form" class="required" value="" />
+                                        <input asp-for="Name" type="text" />
                                         <span class="add-on">
                                             <i class="icon-user"></i>
                                         </span>
+
                                     </div>
-                                    <div class="msg-error" dir="rtl" lang="ar"></div>
-                                    <div class="clear" dir="rtl" lang="ar"></div>
+                                    <span asp-validation-for="Name" style="color:red;"></span>
                                 </li>
 
                                 <li class="text-field span3">
-                                    <label for="email-contact-form">
-                                        <span class="mainlabel">البريد الإلكتروني</span>
+                                    <label asp-for="Email" style="font-size:large">
+                                        @*@if (Model != null && !String.IsNullOrEmpty(Model.Email))
+                                        {
+                                            <span class="mainlabel">البريد الإلكتروني</span>
+                                        }*@
+
                                     </label>
                                     <div class="input-prepend" dir="rtl" lang="ar">
                                         <span class="add-on">
                                             <i class="icon-envelope"></i>
                                         </span>
-                                        <input type="text" name="yit_contact[email]" id="email-contact-form" class="required email-validate" value="" />
+                                        <input asp-for="Email" type="text" class="required email-validate" />
                                     </div>
-
-                                    <div class="msg-error" dir="rtl" lang="ar"></div>
-                                    <div class="clear" dir="rtl" lang="ar"></div>
+                                    <span asp-validation-for="Email" style="color:red;"></span>
                                 </li>
 
                                 <li class="text-field span3">
-                                    <label for="phone-contact-form">
-                                        <span class="mainlabel">رقم الهاتف</span>
+                                    <label asp-for="Phoneumer" style="font-size:large">
+                                        
                                     </label>
                                     <div class="input-prepend" dir="rtl" lang="ar">
                                         <span class="add-on">
                                             <i class="icon-phone"></i>
                                         </span>
-                                        <input type="text" name="yit_contact[phone]" id="phone-contact-form" class="" value="" />
+                                        <input asp-for="Phoneumer" type="text" />
                                     </div>
-
-                                    <div class="msg-error" dir="rtl" lang="ar"></div>
-                                    <div class="clear" dir="rtl" lang="ar"></div>
+                                    <span asp-validation-for="Phoneumer" style="color:red;"></span>
                                 </li>
 
                                 <li class="textarea-field span9">
-                                    <label for="message-contact-form">
-                                        <span class="mainlabel">الأسئلة والاستفسارات</span>
+                                    <label asp-for="Comments" style="font-size:large">
+                                       
                                     </label>
                                     <div class="input-prepend" dir="rtl" lang="ar">
                                         <span class="add-on">
                                             <i class="icon-pencil"></i>
                                         </span>
-                                        <textarea name="yit_contact[message]" id="message-contact-form" rows="8" cols="30" class="required"></textarea>
+                                        <textarea asp-for="Comments" rows="8" cols="30"></textarea>
                                     </div>
-                                    <div class="msg-error" dir="rtl" lang="ar"></div>
-                                    <div class="clear" dir="rtl" lang="ar"></div>
+                                    <span asp-validation-for="Comments" style="color:red;"></span>
+
                                 </li>
 
-                                <li class="submit-button span9">
-                                    <input type="text" name="yit_bot" id="yit_bot" />
-                                    <input type="hidden" name="yit_action" value="sendmail" id="yit_action" />
-                                    <input type="hidden" name="yit_referer" value="pages-contact.html" />
-                                    <input type="hidden" name="id_form" value="3" />
-                                    <input type="submit" name="yit_sendemail" value="ارسال" class="sendmail alignright" />
-                                    <div class="clear" dir="rtl" lang="ar"></div>
+                                <li>
+                                    @if (ViewBag.success != null)
+                                    {
+                                        <button type="submit" class="sendmail alignright, form-control" disabled>ارسال</button>
+                                    }
+                                    else
+                                    {
+                                    <button type="submit" class="sendmail alignright, form-control">ارسال</button>
+                                    }
+
                                 </li>
                             </ul>
                         </fieldset>
                     </form>
-
-                    <script type="text/javascript">
-                        var messages_form_3 = {
-                            name: "Insert the name",
-                            email: "Insert a valid email",
-                            phone: "",
-                            message: "Insert a message"
-                        };
-                    </script>
-
                 </div>
 
                 <!-- START COMMENTS -->
@@ -140,21 +143,31 @@
                             <li>
                                 <i class="icon-map-marker" style="color:#000;font-size:12px;width:12px;height:12px"></i>
                                 &nbsp;
-                                <span>العنوان:</span> --------------
+                                <span>العنوان:</span> الصفا 46414 - ينبع
                             </li>
 
                             <li>
 
                                 <i class="icon-phone" style="color:#000;font-size:12px;width:12px;height:12px"></i>
                                 &nbsp;
-                                <span>رقم الهاتف</span> 555555555 966+
+                                <span></span> 553507823 966+
+
+                            </li>
+                            <li>
+
+                                <i class="icon-phone" style="color:#000;font-size:12px;width:12px;height:12px"></i>
+                                &nbsp;
+                                <span></span>
+
+                                503172526 966+ | 553507834 966+
+
                             </li>
 
-                            <li>
-                                <i class="icon-print" style="color:#000;font-size:12px;width:12px;height:12px"></i>
-                                &nbsp;
-                                <span>الفاكس</span>  555555555 966+
-                            </li>
+                            @*<li>
+                                    <i class="icon-print" style="color:#000;font-size:12px;width:12px;height:12px"></i>
+                                    &nbsp;
+                                    <span>الفاكس</span>  555555555 966+
+                                </li>*@
 
                             <li>
                                 <i class="icon-envelope" style="color:#000;font-size:12px;width:12px;height:12px"></i>
@@ -166,7 +179,7 @@
                 </div>
                 <div id="text-2" class="widget-2 widget-last widget widget_text" dir="rtl" lang="ar">
                     <h3>وسائل التواصل الاجتماعي</h3>
-                    <div class="textwidget" dir="rtl" lang="ar">                
+                    <div class="textwidget" dir="rtl" lang="ar">
 
                         <a href="# " class="socials-small facebook-small" title="Facebook"></a>
 

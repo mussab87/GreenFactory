@@ -1,6 +1,7 @@
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\web.config
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\appsettings.Development.json
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\appsettings.json
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\libman.json
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\GreenFactory.exe
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\GreenFactory.deps.json
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Debug\net5.0\GreenFactory.runtimeconfig.json
@@ -72,9 +73,13 @@ D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razo
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Home\Products.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\MainHome\Index.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_FooterPartial.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_HeaderPartial.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_HeadPartial.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_Home.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_LoginAndReg.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_ScriptPartial.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
