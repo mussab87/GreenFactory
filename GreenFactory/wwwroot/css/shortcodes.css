@@ -583,7 +583,7 @@ td img {
     background: url("../images/bg/tab-price-gradient.png") repeat-x scroll 0 0 #FFFFFF;
     border: 1px solid #D2D0D0;
     margin: 0 0 20px;
-    max-width: 280px;
+    max-width: 600px;
 }
 .price-table .head {
     border-bottom: 1px solid #D2D0D0;
@@ -611,7 +611,7 @@ td img {
     margin: 0 0 20px;
 }
 .price-table .body li {
-    background: url("../images/icons/tick20.png") no-repeat scroll left center transparent;
+    background: url("") no-repeat scroll left center transparent;
     line-height: 20px;
     padding: 10px 0 10px 35px;
 }
@@ -665,7 +665,7 @@ td img {
 .pricing_box .header span { position: relative; top: 20px; font-size: 16px; font-weight: bold; line-height: 28px;}
 .pricing_box .header span.info { position: relative; font-size: 12px; font-weight: normal; top: 2px; display: block; color: gray; } 
 .pricing_box p { line-height: 28px;}
-.pricing_box ul { list-style: none; margin: 0 0 15px 0!important; text-align: left;}
+.pricing_box ul { list-style: none; margin: 0 0 15px 0!important; text-align: right;}
 
 .cols-2 .pricing_box { width: 49.8%; margin-bottom:50px; }
 .cols-3 .pricing_box  { width: 33%;  margin-bottom:50px;}
@@ -675,14 +675,20 @@ td img {
 .pricing_box ul li { margin-top: 20px; margin-bottom: 20px; line-height: 1.5em; padding-left: 40px !important; padding-right: 20px; margin-left:0; list-style-type: none !important; padding-left: 20px; font-style: normal; font-weight: normal; color: gray;}
 .pricing_box ul li:nth-child(odd) { background-color: #FFFFFF !important; }
 .pricing_box ul li:nth-child(even) { background-color: #F9F9F9 !important; }
-.pricing_box ul li { background: url('../images/price.yes.png') no-repeat scroll 20px 0px transparent !important; }
+.pricing_box ul li { background: none }
 .pricing_box ul li.no { background: url('../images/price.no.png') no-repeat scroll 20px 0px transparent !important; }
 .pricing_box ul li.yes { background: url('../images/price.yes.png') no-repeat scroll 20px 0px transparent !important; }
 .pricing_box ul li.unlim { background: url('../images/price.unlim.png') no-repeat scroll 20px 0px transparent !important; }
 .pricing_box ul li.single { background: url('../images/price.single.png') no-repeat scroll 20px 0px transparent !important; }
 
 .pricing_box .header h3{ margin: 0; display: block; line-height: 68px; color: #585555;}
-.pricing_box.large .header h3{ margin: 0; display: block; line-height: 88px; color: #FFFFFF;}
+.pricing_box.large .header h3 {
+    margin: 0;
+    display: block;
+    line-height: 88px;
+    color: #FFFFFF;
+    background: #3e5044;
+}
 .pricing_box h3{ margin: 20px 0; font-size: 22px; display: block; color: #585555;}
 .pricing_box h3 em{ font-size: 12px; font-weight: normal;}
 

@@ -8,7 +8,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyjlTSb+360CkWfal+EVnkgAAAAACAAAAAAAQZgAAAAEAACAAAADI9yUmrvwhZLucLJBp+q1ayyelFDY+bOgaTcFgs7kHQwAAAAAOgAAAAAIAACAAAAASmhIF534xqF0YZhKGgpolSluzwRyqiJhOofLNDxCk7SAAAAD6L83EapUR7nrXBw5Fj6IX5EkTrtccnL850cMt3SHz4kAAAAC5h6MQSazwusohAfJ844h7Q7aO2gmUicYCKe2m7Ct9qW2BbfZ74xpZhpDEaZwh6l94VgXgCsaVEqVSqeWSvjiK</EncryptedPassword>
     <_PublishTargetUrl>ftp://ftp.site4now.net/greenfactory</_PublishTargetUrl>
-    <History>False|2021-09-20T19:20:45.8482128Z;False|2021-08-20T20:11:19.4670140+03:00;False|2021-08-20T16:26:51.6110945+03:00;False|2021-08-20T15:43:13.5535185+03:00;</History>
+    <History>False|2021-09-20T19:29:06.6388340Z;False|2021-09-20T22:24:43.2200294+03:00;False|2021-09-20T22:20:45.8482128+03:00;False|2021-08-20T20:11:19.4670140+03:00;False|2021-08-20T16:26:51.6110945+03:00;False|2021-08-20T15:43:13.5535185+03:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">

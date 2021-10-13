@@ -22,8 +22,9 @@ namespace Service.DataLayer.Repository
                     "<br />Comments & Enquiries: " + emailInfo.Comments +
                     "<br /><br /><br /> <h1> Green Factory Auto Email Sender </h1>";
 
-                var fromEmail = "userf2249@gmail.com";
-                var toEmail = emailInfo.Email;
+                var fromEmail = "Notification@greenfactorysa.com";
+                var toEmail = "hatim@greenfactorysa.com; info@greenfactorysa.com";
+                    //emailInfo.Email;
 
                 MailMessage mail = new MailMessage();
                 mail.To.Add(toEmail);
@@ -33,11 +34,11 @@ namespace Service.DataLayer.Repository
                 //string Body = "Hi, this mail is to test sending mail using Gmail in ASP.NET";
                 mail.Body = messageBody;
                 mail.IsBodyHtml = true;
-                SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+                SmtpClient smtp = new SmtpClient("sm15.internetmailserver.net", 587);
                 // smtp.Host = "smtp.gmail.com"; //Or Your SMTP Server Address
                 smtp.UseDefaultCredentials = false;
-                smtp.EnableSsl = true;
-                smtp.Credentials = new System.Net.NetworkCredential(fromEmail, "User@123456");
+                smtp.EnableSsl = false;
+                smtp.Credentials = new System.Net.NetworkCredential(fromEmail, "N@123456");
                 // smtp.Port = 587;
                 //Or your Smtp Email ID and Password
                 smtp.Send(mail);               

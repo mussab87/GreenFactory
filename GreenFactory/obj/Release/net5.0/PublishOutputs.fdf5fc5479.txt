@@ -1149,6 +1149,8 @@ D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\Pu
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\logo-footer.png
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\logo-footer@2x.png
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\logo001.jpg
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\logo003.bmp
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\logo02.jpg
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\long-arrow.png
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\long-arrow@2x.png
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\menu-select-arrow.png
@@ -1284,6 +1286,9 @@ D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\Pu
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\orange.gif
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\paper-straws-slider1.jpeg
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\Product1.jpeg
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\SliderStraw1.jpg
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\SliderStraw2.jpg
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\SliderStraw3.jpg
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\tooltip.png
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\small-arrow.png
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\small-arrow@2x.png

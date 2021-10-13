@@ -47,7 +47,7 @@ namespace GreenFactory.Controllers
             if (ModelState.IsValid)
             {
                 var IsEmailSent = sendEmail.SendEmailToCustomer(emailInfo);
-
+                //var IsEmailSent = true;
                 if (IsEmailSent)
                 {
                     ViewBag.success = "تم ارسال البريد الالكتروني بنجاح، شكراً لتواصلكم معنا...";

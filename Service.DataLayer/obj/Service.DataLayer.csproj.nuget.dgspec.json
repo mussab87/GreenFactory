@@ -24,7 +24,7 @@
           "net5.0"
         ],
         "sources": {
-          "D:\\RSLF Work Course\\Work\\Azure_Behavior_Project\\Behavior_Development\\Lib": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {

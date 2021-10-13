@@ -91,3 +91,4 @@ D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\re
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\GreenFactory.pdb
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\GreenFactory.genruntimeconfig.cache
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\bin\Release\net5.0\libman.json
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\Razor\Views\Home\test.cshtml.g.cs

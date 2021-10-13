@@ -17,126 +17,36 @@
 
             @if (ViewBag.title == "Home")
             {
-            <!-- START SLIDER -->
-            <div id="slider-revolution-slider" class="slider slider-revolution-slider revolution-slider">
-                <div class="shadowWrapper">
-
-                    <!-- START REVOLUTION SLIDER  -->
-                    <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:400px; direction:rtl;">
-                        <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:400px;height:400;">
-                            <ul>
-                                <li data-transition="random" data-slotamount="7" data-masterspeed="300">
-                                    <img src="~/images/slider/2-bg.jpg" alt="2-bg">
-
-                                    <div class="tp-caption lft"
-                                         data-x="753"
-                                         data-y="25"
-                                         data-speed="1000"
-                                         data-start="1600"
-                                         data-easing="easeOutQuint">
-                                        <img src="~/images/slider/paper-straws-slider1.jpeg" alt="Image 4">
-                                    </div>
-
-                                    <div class="tp-caption main_title lfr"
-                                         data-x="0"
-                                         data-y="60"
-                                         data-speed="1000"
-                                         data-start="300"
-                                         data-easing="easeOutQuint">
-                                        <span style="font-family:'Dancing Script';font-weight:400;">مصاصات ورقية</span> <br />
-                                        صديقة للبيئة
-                                    </div>
-
-                                    <div class="tp-caption paragraph lfb"
-                                         data-x="0"
-                                         data-y="194"
-                                         data-speed="1000"
-                                         data-start="700"
-                                         data-easing="easeOutQuint">
-                                        اول مصنع للمصاصات الورقية الصديقة للبيئة في المملكة العربية السعودية <br />
-                                        @*<b>Optimized for minor resolutions and mobile devices.</b>*@
-                                    </div>
-
-                                </li>
-
-                                <li data-transition="random" data-slotamount="7" data-masterspeed="300">
-                                    <img src="~/images/slider/1-bg.jpg">
-
-                                    <div class="tp-caption lfb"
-                                         data-x="30"
-                                         data-y="13"
-                                         data-speed="2000"
-                                         data-start="300"
-                                         data-easing="easeOutQuint">
-                                        <img src="~/images/slider/Product1.jpeg" alt="Image1">
-                                    </div>
-                                </li>
-
-
-                            </ul>
-                        </div>
-                    </div>
-
-                    <script type="text/javascript">
-
-                        var tpj = jQuery;
-
-                        tpj.noConflict();
-
-                        var revapi1;
-
-                        tpj(document).ready(function () {
-
-                            if (tpj.fn.cssOriginal != undefined)
-                                tpj.fn.css = tpj.fn.cssOriginal;
-
-                            if (tpj('#rev_slider_1_1').revolution == undefined)
-                                revslider_showDoubleJqueryError('#rev_slider_1_1');
-                            else
-                                revapi1 = tpj('#rev_slider_1_1').show().revolution(
-                                    {
-                                        delay: 9000,
-                                        startwidth: 1170,
-                                        startheight: 400,
-                                        hideThumbs: 200,
-
-                                        thumbWidth: 100,
-                                        thumbHeight: 50,
-                                        thumbAmount: 3,
-
-                                        navigationType: "none",
-                                        navigationArrows: "nexttobullets",
-                                        navigationStyle: "round",
-
-                                        touchenabled: "on",
-                                        onHoverStop: "off",
-
-                                        navOffsetHorizontal: 0,
-                                        navOffsetVertical: 20,
-
-                                        shadow: 0,
-                                        fullWidth: "on",
-
-                                        stopLoop: "off",
-                                        stopAfterLoops: -1,
-                                        stopAtSlide: -1,
-
-                                        shuffle: "off",
-
-                                        hideSliderAtLimit: 0,
-                                        hideCaptionAtLimit: 0,
-                                        hideAllCaptionAtLilmit: 0
-                                    });
-
-                        });	//ready
-
-                    </script>
-
-                    <!-- END REVOLUTION SLIDER -->
+                @* new slider *@
+                <div id="slider-flexslider-classic" class="slider slider-flexslider-classic flexslider container">
+                    <ul class="slides" style="width: 100%;">
+                        <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;">
+                            <img width="1170" height="378" src="~/images/slider/SliderStraw1.jpg" class="attachment-full">
+                        </li>
+                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;" class="flex-active-slide">
+                            <img width="1170" height="380" src="~/images/slider/SliderStraw2.jpg" class="attachment-full">
+                        </li>
+                        <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
+                            <img width="1170" height="378" src="~/images/slider/SliderStraw3.jpg" class="attachment-full">
+                        </li>
+                    </ul>
+                    <ol class="flex-control-nav flex-control-paging"></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul>
                 </div>
-            </div>
-            <!-- END SLIDER -->
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function ($) {
+                        $('#slider-flexslider-classic.flexslider').flexslider({
+                            animation: 'fade',
+                            slideshowSpeed: 3000,
+                            animationSpeed: 800,
+                            touch: false
+                        });
+                    });
+                </script>
+                @* ***************************************** *@
             }
+
+
 
             <!-- START PAGE META -->
             <div id="page-meta" class="container">
@@ -149,7 +59,7 @@
 
             @RenderBody()
 
-        <partial name="_FooterPartial" />
+            <partial name="_FooterPartial" />
 
         </div>
 
