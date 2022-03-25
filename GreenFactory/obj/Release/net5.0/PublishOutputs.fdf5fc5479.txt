@@ -1286,6 +1286,8 @@ D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\Pu
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\orange.gif
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\paper-straws-slider1.jpeg
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\Product1.jpeg
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\Product1New.jpeg
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\Product2.jpeg
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\SliderStraw1.jpg
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\SliderStraw2.jpg
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Release\net5.0\PubTmp\Out\wwwroot\images\slider\SliderStraw3.jpg

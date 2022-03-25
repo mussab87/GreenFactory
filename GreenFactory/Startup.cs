@@ -76,6 +76,7 @@ namespace GreenFactory
         {
             if (env.IsDevelopment())
             {
+                //app.UseExceptionHandler("/Home/Error");
                 app.UseDeveloperExceptionPage();
             }
             else

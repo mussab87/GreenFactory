@@ -699,7 +699,11 @@ td img {
 .pricing_box p.button a:hover{background-position:right -120px;}
 
 .pricing_box.large { position: relative; z-index: 9; margin-top: 0px; -moz-box-shadow: 0 1px 10px #cbcbcb; -webkit-box-shadow: 0 1px 10px #cbcbcb; box-shadow: 0px 1px 10px #cbcbcb; padding: 0 0 40px 0; border-radius: 5px;}
-.pricing_box.large .header { color: #FFFFFF; height: 88px; background: url('../images/price.bg.signup.png') repeat; }
+    .pricing_box.large .header {
+        color: #FFFFFF;
+        height: 88px;
+        background: #3e5044 repeat;
+    }
 .pricing_box.large .header  span{ top: 30px; }
 .pricing_box.large .header  span.info{ top: 14px; color: #576e1f; text-shadow:none; }
 

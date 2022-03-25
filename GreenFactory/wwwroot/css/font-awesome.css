@@ -81,7 +81,10 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 .icon-glass:before                { content: "\f000"; }
 .icon-music:before                { content: "\f001"; }
 .icon-search:before               { content: "\f002"; }
-.icon-envelope:before             { content: "\f003"; }
+.icon-envelope:before {
+    content: "\f003";
+    color: midnightblue;
+}
 .icon-heart:before                { content: "\f004"; }
 .icon-star:before                 { content: "\f005"; }
 .icon-star-empty:before           { content: "\f006"; }
@@ -144,7 +147,10 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 .icon-picture:before              { content: "\f03e"; }
 
 .icon-pencil:before               { content: "\f040"; }
-.icon-map-marker:before           { content: "\f041"; }
+.icon-map-marker:before {
+    content: "\f041";
+    color: indianred;
+}
 .icon-adjust:before               { content: "\f042"; }
 .icon-tint:before                 { content: "\f043"; }
 .icon-edit:before                 { content: "\f044"; }
@@ -228,7 +234,10 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 .icon-github-sign:before          { content: "\f092"; }
 .icon-upload-alt:before           { content: "\f093"; }
 .icon-lemon:before                { content: "\f094"; }
-.icon-phone:before                { content: "\f095"; }
+.icon-phone:before {
+    content: "\f095";
+    color: green;
+}
 .icon-check-empty:before          { content: "\f096"; }
 .icon-bookmark-empty:before       { content: "\f097"; }
 .icon-phone-sign:before           { content: "\f098"; }

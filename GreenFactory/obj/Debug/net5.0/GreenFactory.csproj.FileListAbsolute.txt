@@ -81,6 +81,7 @@ D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razo
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_LoginAndReg.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_ScriptPartial.cshtml.g.cs
+D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_SliderPartial.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 D:\Green Factory Website\Project\GreenFactory\GreenFactory\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs

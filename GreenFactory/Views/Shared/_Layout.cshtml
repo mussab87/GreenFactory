@@ -2,7 +2,6 @@
 @inject SignInManager<IdentityUser> SignInManager
 
 <!DOCTYPE html>
-
 <html>
 
 <partial name="_HeadPartial" />
@@ -17,44 +16,16 @@
 
             @if (ViewBag.title == "Home")
             {
-                @* new slider *@
-                <div id="slider-flexslider-classic" class="slider slider-flexslider-classic flexslider container">
-                    <ul class="slides" style="width: 100%;">
-                        <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;">
-                            <img width="1170" height="378" src="~/images/slider/SliderStraw1.jpg" class="attachment-full">
-                        </li>
-                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;" class="flex-active-slide">
-                            <img width="1170" height="380" src="~/images/slider/SliderStraw2.jpg" class="attachment-full">
-                        </li>
-                        <li style="width: 100%; float: left; margin-right: -100%; position: relative;">
-                            <img width="1170" height="378" src="~/images/slider/SliderStraw3.jpg" class="attachment-full">
-                        </li>
-                    </ul>
-                    <ol class="flex-control-nav flex-control-paging"></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul>
-                </div>
-
-                <script type="text/javascript">
-                    jQuery(document).ready(function ($) {
-                        $('#slider-flexslider-classic.flexslider').flexslider({
-                            animation: 'fade',
-                            slideshowSpeed: 3000,
-                            animationSpeed: 800,
-                            touch: false
-                        });
-                    });
-                </script>
-                @* ***************************************** *@
+                <partial name="_SliderPartial" />
             }
 
-
-
             <!-- START PAGE META -->
-            <div id="page-meta" class="container">
+            <!--<div id="page-meta" class="container">-->
                 <!-- SLOGAN -->
-                <div class="slogan">
+                <!--<div class="slogan">
                     <h3>المصنع الأخضر للمنتجات الورقية </h3>
                 </div>
-            </div>
+            </div>-->
             <!-- END PAGE META -->
 
             @RenderBody()
